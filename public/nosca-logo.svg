@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 546 406" width="546" height="406" fill="none">
+  <path
+    fill="#F7F7F5"
+    d="M55 30
+       L55 387
+       L171 386
+       L171 178
+       C259 209 347 289 380 385
+       L503 384
+       C447 184 252 30 55 30
+       Z"/>
+  <rect x="392" y="27" width="120" height="120" fill="#F7F7F5"/>
+</svg>

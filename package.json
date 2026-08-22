@@ -1,0 +1,28 @@
+{
+  "name": "reelai-analytics",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "node --conditions=react-server --import tsx --test tests/*.test.ts",
+    "typecheck": "next typegen && tsc --noEmit --incremental false",
+    "check": "npm test && npm run typecheck && npm run build"
+  },
+  "dependencies": {
+    "next": "16.3.2",
+    "pg": "^8.16.3",
+    "react": "19.2.8",
+    "react-dom": "19.2.8",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "22.13.8",
+    "@types/pg": "^8.15.5",
+    "@types/react": "19.0.10",
+    "@types/react-dom": "19.0.4",
+    "tsx": "^4.20.6",
+    "typescript": "5.7.3"
+  }
+}
